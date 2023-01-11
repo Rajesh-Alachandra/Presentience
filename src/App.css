@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Seymour+One&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.navbar-nav{
+    font-size:x-large;
+}
+
+/* ---------------------login form styling--------------------------------------> */
+.Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Auth-form-content {
+   
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
+  .button{
+    justify-content: center;
+    text-align: center;
+  }
+  /* .footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color:#0d938a;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  } */
